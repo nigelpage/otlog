@@ -1,0 +1,5 @@
+package otlog
+
+func init() {
+	
+}
