@@ -2,6 +2,7 @@ package otlog
 
 import (
 	"fmt"
+	
 	"github.com/gookit/slog"
 )
 
