@@ -11,7 +11,7 @@ import (
  https://opentelemetry.io/docs/reference/specification/logs/data-model/
 */
 
-// N.B. slog uses the term 'Severity' to describe the importance of a log message, whilst OpenTelemetry uses the term 'Severity'
+// N.B. slog uses the term 'Level' to describe the importance of a log message, whilst OpenTelemetry uses the term 'Severity'
 type Severity slog.Level
 
 const (
