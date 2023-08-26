@@ -113,6 +113,9 @@ func SeverityValue(str string) (Severity, error) {
 }
 
 func (s Severity) String() string {
+	if s < TraceSeverity || s > Fatal4Severity {
+		return fmt.Sprintf("**INVALID OpenTelemetry log Severity value - %d**", s)
+	}
 	return severityToStr[Severity(Severity(s))]
 }
 
